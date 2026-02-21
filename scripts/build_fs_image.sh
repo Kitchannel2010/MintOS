@@ -20,7 +20,7 @@
 source "$SRC_DIR/scripts/utils/build_utils.sh" || exit 1
 
 FORCE=false
-FS_TYPE=""
+FS_TYPE="ext4"
 SPARSE=false
 AVB_SIGN=""
 MAP_FILE=false
